@@ -1,7 +1,6 @@
 const getName = (obj) => {
-    
-  const {name} = obj;
-  return name;
+    const name = obj['name']
+    return name;
 
 }
 
