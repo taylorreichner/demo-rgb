@@ -7,14 +7,10 @@ describe('caps all letters and filters out strings that start with f', () => {
             'good morning',
             'failure to compute',
         ];
-        const strings = [
-            'HELLO',
-            'GOOD MORNING'
-            
-        ];
+       
         const newString = capitalizeAndFilter(theStrings)
    
-        expect(strings).toEqual(newString)
+        expect(newString).toEqual(['HELLO', 'GOOD MORNING'])
     });
     
 })
